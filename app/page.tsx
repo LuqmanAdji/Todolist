@@ -1,10 +1,12 @@
-    import React from 'react';
+import React from 'react';
+import TodoList from '../src/components/todolist';
 
-    export default function Page() {
-        return (
-          <>
-            <h1>Landing Page</h1>
-          </>
-        );
-      }
-      
+function page() {
+  return (
+    <>
+      <TodoList />
+    </>
+  );
+}
+
+export default page;
